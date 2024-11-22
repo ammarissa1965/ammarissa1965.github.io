@@ -110,6 +110,8 @@ CSS STRUCTURE:
   --body-text-color: #757575;
   --light-text-color: #afafaf;
   --dark-text-color: #2f2f2f;
+  --test-white-color: #fff;
+  --test-off-white-color: #93929b;
 }
 
 /* Fonts */
@@ -2021,9 +2023,9 @@ body.nav-active .nav__block .nav__block-item {
 
 .main-slider .banner-content h2.banner-title {
   font-family: var(--heading-font);
-  font-size: 5.5em;
+  font-size: 7.5em;
   font-weight: 900;
-  color: #fff;
+  color: rgba(0, 0, 0, 0.75);
   text-transform: uppercase;
 
 }
